@@ -1,5 +1,6 @@
 import svgLoader from 'vite-svg-loader';
 export default defineNuxtConfig({
+  ssr: false,
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   postcss: {
@@ -8,7 +9,10 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ['@vueuse/motion/nuxt'],
+  modules: [
+    '@vueuse/motion/nuxt',
+    '@tresjs/nuxt'
+  ],
 
   vite: {
     plugins: [svgLoader()],

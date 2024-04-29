@@ -38,7 +38,7 @@
         </div>
         <div class="w-full h-full flex justify-center items-center" v-motion :initial="slideFromRight.initial"
             :enter="slideFromRight.enter">
-            <MainIconsDark />
+            <MainIconsDark class="h-90 w-70 md:block hidden" />
         </div>
     </div>
 </template>

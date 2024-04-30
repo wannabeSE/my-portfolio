@@ -1,6 +1,6 @@
 <template>
   <TresMesh :position="[x, y, z]">
-    <TresSphereGeometry :args="[0.008, 22, 22]" />
+    <TresSphereGeometry :args="[0.008, 12, 12]" />
     <TresMeshBasicMaterial :color="'#FFFFFF'" />
   </TresMesh>
 </template>

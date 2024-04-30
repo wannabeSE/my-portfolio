@@ -1,14 +1,14 @@
 <template>
-    <div class="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]" v-motion :initial="{ opacity: 0 }"
+    <div class="flex flex-row items-center justify-center px-20 mt-40 w-full" v-motion :initial="{ opacity: 0 }"
         :enter="slideFromTop.enter" :delay="400">
-        <div class="h-full w-full flex flex-col gap-5 justify-center m-auto text-start">
+        <div class="h-full w-full flex flex-col md:gap-5 gap-3 justify-center m-auto text-start">
             <div v-motion :initial="slideFromTop.initial" :enter="slideFromTop.enter" :delay="600"
                 class="Welcome-box py-[8px] px-[7px] border border-[#7042f88b] opacity-[0.9]">
-                <SparklesIcon class="text-[#b49bff] mr-[10px] h-5 w-5" />
+                <SparklesIcon class="text-[#b49bff] mr-[10px] size-5" />
                 <h1 class="Welcome-text text-[13px]">Software Engineer Portfolio</h1>
             </div>
             <div v-motion :initial="slideFromLeft.initial" :enter="slideFromLeft.enter" :delay="500"
-                class="flex flex-col gap-6 mt-6 text-6xl font-bold text-white max-w-[600px] w-auto h-auto">
+                class="flex flex-col gap-6 mt-6 text-4xl md:text-6xl font-bold text-white max-w-[600px] w-auto h-auto">
                 Hi Querist!
                 <span class="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">I&apos;m Jubair Samir</span>
             </div>
@@ -19,12 +19,12 @@
                     delay: 800,
                     duration: 500
                 }
-            }" class="text-lg text-gray-400 my-5 max-w-[600px]">
+            }" class="md:text-lg text-sm text-gray-400 my-5 max-w-[600px]">
                 I&apos;m a Full Stack Software Engineer with experience in Webapp,
                 Mobile and Software development. Check out my projects and skills.
             </div>
             <NuxtLink to="https://www.linkedin.com/in/jubair-samir-463376206"
-                class="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]" v-motion
+                class="py-2 button-primary text-center text-white cursor-pointer max-w-40 text-sm md:text-lg rounded-lg md:max-w-[200px]" v-motion
                 :initial="slideFromLeft.initial" :enter="{
                     x: 0,
                     opacity: 1,

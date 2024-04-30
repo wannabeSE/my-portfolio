@@ -4,7 +4,7 @@
         autoplay 
         muted 
         loop 
-        class="rotate-180 absolute top-[-340px]  h-full w-full left-0 object-cover">
+        class="rotate-180 absolute md:top-[-340px] -top-56 h-full w-full left-0 object-cover">
         <source src="/blackhole.webm" type="video/webm">
         </video>
         <HeroContent />

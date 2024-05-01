@@ -8,6 +8,8 @@
         <Hero />
         <Skills/>
         <Achievement />
+        <Projects />
+        <Footer />
       </div>
     </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-    <div class="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+    <div class="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] z-[40] cursor-pointer">
         <NuxtImg
         :src="imgSrc"
         height="300"
@@ -7,7 +7,7 @@
         fit="fill"
         />
         <div class="relative p-4">
-            <h1 class="md:text-2xl text-lg font-semibold text-white">{{ title }}</h1>
+            <a :href="link" class="md:text-2xl text-lg font-semibold text-white">{{ title }}</a>
         </div>
     </div>
 </template>
@@ -22,7 +22,7 @@ const props = defineProps({
         type: String,
         required: true
     },
-    description:{
+    link:{
         type: String,
         required: true
     }

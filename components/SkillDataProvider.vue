@@ -3,7 +3,6 @@
         <div class="md:h-20 md:w-20 h-16 w-16 my-4 md:my-4">
             <img :src="imgSrc" :alt="imgAlt">
         </div>
-
     </div>
 </template>
 

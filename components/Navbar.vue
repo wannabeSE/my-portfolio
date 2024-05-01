@@ -1,6 +1,6 @@
 <template>
   <nav
-    class="w-full h-16 fixed top-0 flex items-center z-[20] shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md"
+    class="w-full h-16 fixed top-0 flex items-center z-50 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md"
   >
     <div class="hidden w-full md:flex justify-center">
       <ul

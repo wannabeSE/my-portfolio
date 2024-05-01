@@ -1,5 +1,5 @@
 <template>
-    <div class="flex flex-row items-center justify-center px-20 mt-40 w-full" v-motion :initial="{ opacity: 0 }"
+    <div class="flex flex-row items-center justify-center px-20 mt-40 w-full z-[20]" v-motion :initial="{ opacity: 0 }"
         :enter="slideFromTop.enter" :delay="400">
         <div class="h-full w-full flex flex-col md:gap-5 gap-3 justify-center m-auto text-start">
             <div v-motion :initial="slideFromTop.initial" :enter="slideFromTop.enter" :delay="600"
@@ -23,9 +23,28 @@
                 I&apos;m a Full Stack Software Engineer with experience in Webapp,
                 Mobile and Software development. Check out my projects and skills.
             </div>
+            <!-- <div v-motion
+                :initial="slideFromLeft.initial" 
+                :enter="{
+                    x: 0,
+                    opacity: 1,
+                    transition: {
+                        delay: 1000,
+                        duration: 500
+                    }
+                }"
+                class="py-2 button-primary text-center text-white cursor-pointer max-w-40 text-sm md:text-lg rounded-lg md:max-w-[200px]" 
+                >
+                <a href="https://www.linkedin.com/in/jubair-samir-463376206">
+                    Connect With Me
+                </a>
+            </div> -->
             <NuxtLink to="https://www.linkedin.com/in/jubair-samir-463376206"
-                class="py-2 button-primary text-center text-white cursor-pointer max-w-40 text-sm md:text-lg rounded-lg md:max-w-[200px]" v-motion
-                :initial="slideFromLeft.initial" :enter="{
+                class="py-2 button-primary text-center text-white cursor-pointer max-w-40 text-sm md:text-lg rounded-lg md:max-w-[200px]" 
+                id="profile"
+                v-motion
+                :initial="slideFromLeft.initial" 
+                :enter="{
                     x: 0,
                     opacity: 1,
                     transition: {

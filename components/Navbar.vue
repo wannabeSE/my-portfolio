@@ -8,7 +8,7 @@
       >
         <a
           :href="`#${i.name}`"
-          class="text-white text-lg font-medium hover:scale-110 hover:text-black"
+          class="transition-all duration-500 text-white text-lg font-medium hover:scale-110 hover:text-purple-500"
           v-for="i in navLinks"
           :key="i.name"
           >{{ i.text }}</a

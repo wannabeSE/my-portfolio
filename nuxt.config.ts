@@ -11,7 +11,7 @@ export default defineNuxtConfig({
   },
   modules: [
     '@vueuse/motion/nuxt',
-    '@tresjs/nuxt'
+    '@tresjs/nuxt',
   ],
 
   vite: {

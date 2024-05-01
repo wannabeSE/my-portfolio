@@ -6,6 +6,7 @@
     <div class="h-full w-full">
       <div class="flex flex-col gap-20">
         <Hero />
+        <Skills/>
       </div>
     </div>
 </template>

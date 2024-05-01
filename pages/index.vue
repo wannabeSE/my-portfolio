@@ -7,6 +7,7 @@
       <div class="flex flex-col gap-20">
         <Hero />
         <Skills/>
+        <Achievement />
       </div>
     </div>
 </template>

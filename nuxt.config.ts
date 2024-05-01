@@ -9,10 +9,7 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: [
-    '@vueuse/motion/nuxt',
-    '@tresjs/nuxt',
-  ],
+  modules: ['@vueuse/motion/nuxt', '@tresjs/nuxt', "@nuxt/image"],
 
   vite: {
     plugins: [svgLoader()],

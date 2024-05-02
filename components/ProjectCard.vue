@@ -5,6 +5,8 @@
         height="300"
         width="500"
         fit="fill"
+        :alt="link"
+        class="text-white"
         />
         <div class="relative p-4">
             <a :href="link" class="md:text-2xl text-lg font-semibold text-white">{{ title }}</a>

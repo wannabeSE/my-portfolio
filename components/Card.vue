@@ -5,6 +5,7 @@
         height="280"
         width="550"
         fit="fill"
+        :alt="title"
         />
         <div class="relative p-4">
             <h1 class="md:text-2xl text-lg font-semibold text-white">{{ title }}</h1>

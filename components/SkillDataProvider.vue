@@ -1,6 +1,6 @@
 <template>
-    <div v-motion :initial="slideFromLeft.initial" :visible="slideFromLeft.visible">
-        <div class="md:h-20 md:w-20 h-16 w-16 my-4 md:my-4">
+    <div v-motion :initial="slideFromLeftWithVisible.initial" :visible="slideFromLeftWithVisible.visible">
+        <div class="md:h-20 md:w-20 h-16 w-16 my-4 mx-16 md:my-4 md:mx-32">
             <img :src="imgSrc" :alt="imgAlt">
         </div>
     </div>
@@ -17,18 +17,4 @@ const props = defineProps({
         required: true
     }
 })
-const slideFromLeft = {
-    initial: {
-        x: -100,
-        opacity: 0,
-    },
-    visible: {
-        x: 0,
-        opacity: 1,
-        transition: {
-            delay: 300,
-            duration: 600
-        }
-    }
-}
 </script>

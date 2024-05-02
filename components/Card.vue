@@ -1,9 +1,9 @@
 <template>
-    <div class="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61]">
+    <div class="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer transition-all duration-300 hover:scale-110 z-[20]">
         <NuxtImg
         :src="imgSrc"
-        height="300"
-        width="400"
+        height="280"
+        width="550"
         fit="fill"
         />
         <div class="relative p-4">
@@ -22,9 +22,5 @@ const props = defineProps({
         type: String,
         required: true
     },
-    description:{
-        type: String,
-        required: true
-    }
 })
 </script>

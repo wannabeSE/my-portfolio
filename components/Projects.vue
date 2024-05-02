@@ -1,10 +1,10 @@
 <template>
     <div class="flex flex-col items-center justify-center py-20" id="projects">
         <h1
-            class="md:text-[40px] text-xl py-4 font-semibold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 md:py-20">
+            class="md:text-[40px] text-xl m-4 font-bold text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500 md:py-20">
             My Projects
         </h1>
-        <div class="w-full grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-3 items-center justify-center align-middle md:ml-30 m-2">
+        <div class="w-full grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-3 items-center justify-center align-middle md:mx-30 p-4">
             <ProjectCard :imgSrc="'/travel_app.png'" :title="'Travel app build with Flutter'" :link="'https://github.com/wannabeSE/flutter_travel_app'"/>
             <ProjectCard :imgSrc="'/smart_home.png'" :title="'Smart home app build with Flutter'" :link="'https://github.com/wannabeSE/flutter_smart_home_app'"/>
             <ProjectCard :imgSrc="'/sneaker_app.png'" :title="'Sneaker shop app build with Flutter'" :link="'https://github.com/wannabeSE/Shoeshop_UI'"/>

@@ -1,9 +1,9 @@
 <template>
     <section id="skills"
-        class="flex flex-col items-center justify-center gap-3 scale-90 h-full relative overflow-hidden  py-20">
+        class="flex flex-col items-center justify-center gap-3 scale-90 h-full relative overflow-hidden md:py-20">
         <SkillText />
         <div
-            class="w-full grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-center align-middle md:ml-52 ml-32">
+            class="w-full grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-4 items-center justify-center align-middle md:ml-52 lg:ml-64 ml-32">
             <SkillDataProvider v-for="i in skillImg" :imgSrc="i.src" :imgAlt="i.alt" />
         </div>
         <div class="w-full h-full absolute">

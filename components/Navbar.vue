@@ -21,7 +21,6 @@
         @click="isOpen = !isOpen"
         class="size-8 text-white mr-1"
       />
-
       <div
         class="absolute top-12 right-4 bg-[#030014] opacity-80 h-40 w-1/2 border-2 border-white rounded-lg backdrop-filter backdrop-blur-lg"
         :class="isOpen ? '' : 'hidden'"

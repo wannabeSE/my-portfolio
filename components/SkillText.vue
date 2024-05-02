@@ -8,7 +8,7 @@
         </div>
         <div v-motion :initial="{ x: -100, opacity: 0 }"
             :visible-once="{ x: 0, opacity: 1, transition: { delay: 500, duration: 500 } }"
-            class="text-[30px] text-white font-medium mt-[10px] text-center mb-[15px]">
+            class="md:text-[30px] text-white font-medium text-xl  mt-[10px] text-center mb-[15px]">
             Making Apps with Modern Technologies
         </div>
     </div>
@@ -18,11 +18,11 @@
 import { SparklesIcon } from '@heroicons/vue/24/solid';
 const slideFromTop = {
     initial: {
-        y: -100,
+        x: 100,
         opacity: 0,
     },
     visible: {
-        y: 0,
+        x: 0,
         opacity: 1,
         transition: {
             delay: 400,

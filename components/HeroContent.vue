@@ -41,14 +41,16 @@
         </div>
         <div class="w-full h-full flex justify-center items-center" v-motion :initial="slideFromRight.initial"
             :enter="slideFromRight.enter">
-            <MainIconsDark class="h-90 w-70 md:block hidden" />
+            <NuxtImg src="/mainiconsdark.svg" sizes="100vw sm:250px md:400px" alt="logo"/>
+            <!-- <MainIconsDark class="h-90 w-70 md:block hidden" /> -->
         </div>
     </div>
 </template>
 
 <script setup>
-import MainIconsDark from '@/public/mainiconsdark.svg?component';
+import MainIconsDark from '@/public/mainiconsdark.svg';
 import { SparklesIcon } from '@heroicons/vue/24/solid';
+const img = useImage()
 const slideFromTop = {
     initial: {
         y: -100,

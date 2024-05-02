@@ -26,8 +26,8 @@ const slideFromLeft = {
         x: 0,
         opacity: 1,
         transition: {
-            delay: 500,
-            duration: 800
+            delay: 300,
+            duration: 600
         }
     }
 }

@@ -10,6 +10,7 @@
             <ProjectCard :imgSrc="'/sneaker_app.png'" :title="'Sneaker shop app build with Flutter'" :link="'https://github.com/wannabeSE/Shoeshop_UI'"/>
             <ProjectCard :imgSrc="'/authImg.jpg'"  :title="'Authentication system built with NestJS & MongoDB'" :link="'https://github.com/wannabeSE/nestjs-google-jwt-session-auth-system'"/>
             <ProjectCard :imgSrc="'/face_match.jpeg'" :title="'Face match system using vectorDB with Spring Boot'" :link="'https://github.com/wannabeSE/soul-finder'"/>
+            <ProjectCard :imgSrc="'/aipdf.png'" :title="'Pdf generation with LLM including relevant image generation'" :link="'https://github.com/zarif007/buet-cse-fest?tab=readme-ov-file'" />
         </div>
     </div>
 </template>

@@ -1,5 +1,5 @@
 <template>
-  <body class="bg-[#030014] overflow-y-auto overflow-x-hidden">
+  <body class="bg-[#030014] overflow-y-scroll overflow-x-hidden">
     <div class="w-full h-auto fixed inset-0 z-[20]">
       <StarCanvas />
     </div>

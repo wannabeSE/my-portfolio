@@ -1,5 +1,5 @@
 <template>
-    <div class="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer transition-all duration-300 hover:scale-110 z-[20]">
+    <a :href="link" class="relative overflow-hidden rounded-lg shadow-lg border border-[#2A0E61] cursor-pointer transition-all duration-300 hover:scale-110 z-[20]">
         <NuxtImg
         :src="imgSrc"
         height="300"
@@ -9,9 +9,9 @@
         class="text-white"
         />
         <div class="relative p-4">
-            <a :href="link" class="md:text-2xl text-lg font-semibold text-white">{{ title }}</a>
+            <h1 class="md:text-2xl text-lg font-semibold text-white">{{ title }}</h1>
         </div>
-    </div>
+    </a>
 </template>
 
 <script setup>

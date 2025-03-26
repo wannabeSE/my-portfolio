@@ -17,3 +17,5 @@
     Connect With Me
   </NuxtLink>
 </template>
+<script></script>
+<style></style>

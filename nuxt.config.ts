@@ -1,17 +1,17 @@
-import svgLoader from 'vite-svg-loader';
+import svgLoader from "vite-svg-loader";
 export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: true },
-  css: ['~/assets/css/main.css'],
+  css: ["~/assets/css/main.css"],
   postcss: {
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
     },
   },
-  modules: ['@vueuse/motion/nuxt', '@tresjs/nuxt', "@nuxt/image"],
+  modules: ["@vueuse/motion/nuxt", "@tresjs/nuxt", "@nuxt/image"],
 
   vite: {
     plugins: [svgLoader()],
   },
-})
+});

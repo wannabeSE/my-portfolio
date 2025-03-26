@@ -1,6 +1,6 @@
 <template>
     <div v-motion :initial="slideFromLeftWithVisible.initial" :visible="slideFromLeftWithVisible.visible">
-        <div class="md:h-20 md:w-20 h-16 w-16 my-4 mx-16 md:my-4 md:mx-32">
+        <div class="md:h-20 md:w-20 h-16 w-16 mx-16 my-4 md:mx-32">
             <img :src="imgSrc" :alt="imgAlt">
         </div>
     </div>

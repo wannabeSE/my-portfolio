@@ -1,11 +1,9 @@
 <template>
   <body class="bg-[#030014] overflow-y-scroll overflow-x-hidden">
-    <div class="w-full h-auto fixed inset-0 z-[20]">
-      <StarCanvas />
-    </div>
+    <StarCanvas />
     <Navbar />
-    <div class="h-full w-full">
-      <div class="flex flex-col gap-20">
+    <div class="w-full z-50">
+      <div class="flex flex-col md:gap-20 gap-6">
         <Hero />
         <Skills />
         <Achievement />
@@ -15,4 +13,3 @@
     </div>
   </body>
 </template>
-
